@@ -1,7 +1,9 @@
 function calculateRemainingTime(questionsCompleted) {
-  const totalQuestions = 180;
-  const totalMinutes = 230;
-  const timePerQuestion = 1 * 60 + 15 ; // 1 minute 20 seconds in seconds
+  const totalQuestions = 170;
+  const totalMinutes = 205;
+  const timePerQuestion = 1 * 60 + 20 ; // 1 minute 20 seconds in seconds
+
+  // change the totalQuestion number and totalMinute to complete the exams
 
   // Calculate time taken for the questions completed
   const timeTaken = questionsCompleted * timePerQuestion;
